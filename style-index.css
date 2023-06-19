@@ -16,3 +16,7 @@ section{
     margin: auto;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.473)
 }
+div{
+    padding-top: 7px;
+    text-align: center;
+}
