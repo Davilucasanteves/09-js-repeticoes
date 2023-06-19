@@ -1,6 +1,6 @@
-function Tabuada(){
-    var num = document.getElementById('txtnum')
-    var tab = document.getElementById('seltab')
+function tabuada(){
+    let num = document.getElementById('txtn')
+    let tab = document.getElementById('seltab')
 
     if(num.value.length==0){
         window.alert('[ERRO] indique o número!')
@@ -10,9 +10,9 @@ function Tabuada(){
         tab.innerHTML = ''
         while(i<=10){
             let item = document.createElement('option')
-            item.text= `${num} x ${i} = ${num*i}`
+            item.text= `${n} x ${i} = ${n*i}`
             item.value = `tab${i}`
-            tab.appendChild('item')
+            tab.appendChild(item)
             i++
         }
     }
